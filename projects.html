@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My projects</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	
+	<style>
+
+		body, html {
+		  height: 100%;
+		  margin: 0;
+		  font: 400 15px/1.8 "Lato", sans-serif;
+		  color: #777;
+		}
+
+		.bg1, .bg2, .bg3 {
+		  position: relative;
+		  opacity: 0.65;
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+
+		}
+		.bg1 {
+		  background-image: url("scene2.jpg");
+		  min-height: 100%;
+		}
+
+		.bg2 {
+		  background-image: url("P1.jpg");
+		  min-height: 400px;
+		}
+
+		.bg3 {
+		  background-image: url("P2.jpg");
+		  min-height: 400px;
+		}
+
+		.caption {
+		  position: absolute;
+		  left: 0;
+		  top: 50%;
+		  width: 100%;
+		  text-align: center;
+		  color: #000;
+		}
+
+		.caption span.border {
+		  background-color: #111;
+		  color: #fff;
+		  padding: 18px;
+		  font-size: 25px;
+		  letter-spacing: 10px;
+		}
+
+		h3 {
+		  letter-spacing: 5px;
+		  text-transform: uppercase;
+		  font: 20px "Lato", sans-serif;
+		  color: #111;
+		}
+
+		/* Turn off parallax scrolling for tablets and phones */
+		@media only screen and (max-device-width: 1024px) {
+		    .bg, .bg2, .bg3 {
+		        background-attachment: scroll;
+		    }
+		}
+
+	</style>
+</head>
+<body>
+	<div class="bg1">
+		<div class="caption">
+			<span class="border">
+				<font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Project summary</font></font>
+			</span>
+		</div>
+	</div>
+	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+		<h3 style="text-align: center;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Project #1: Game of life</font></font></h3>
+		<p style="text-align: center;><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Game of life, also known as Conway's game, is an orthogonal grid of square cells which is two dimensional and the cells have either of the two states, alive or dead. Transition between these two states occurs when: <br>-Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. <br>-Any live cell with two or three live neighbours lives on to the next generation. <br>-Any live cell with more than three live neighbours dies, as if by overpopulation. <br>-Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.<br>
+		Wrap-around for the edges was used. (Ex. (-1 + 10) % 10 = 9)<br>
+		Implementation of this project was done by using p5.js, a Javascript library.
+		</font></font></p>
+	</div>
+
+	<div class="bg2">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">
+				<font style="vertical-align: inherit;"><font style="vertical-align: inherit;">More projects ahead</font></font>
+			</span>
+		</div>
+	</div>
+	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+		<h3 style="text-align: center;><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Project #2: Tic-Tac-Toe</font></font></h3>
+		<p style="text-align: center;><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Everybody has played this game at least once right? <br>Commonly played among two people, there are two different signs (cross and zero) and anybody to get the first set, be it horizontal, vertical or diagonal, wins.<br>Implementation of this project was done by using Javascript.</font></font></p>
+	</div>
+
+	<div class="bg3">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">
+				<font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Last one</font></font>
+			</span>
+		</div>
+	</div>
+	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+		<h3 style="text-align: center;><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Project #3: Detection of cancerous cells [Undergrad project]</font></font></h3>
+		<p style="text-align: center;><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Image processing techniques such as image enhancement using filtering, and morphological operations were incorporated to develop a code that would clearly indicate and isolate cancerous regions. <br>This would further assist in calculating the percentage of cancer.<br>MATLAB was used to implement this project</font></font></p>
+	</div>
+	<div class="bg1">
+		<div class="caption">
+			<span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">
+				<font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The End</font></font>
+			</span>
+		</div>
+	</div>
+</body>
+</html>
